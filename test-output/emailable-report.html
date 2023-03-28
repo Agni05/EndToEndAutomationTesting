@@ -8,45 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Error validation Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,974</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Submit Order Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">38,373</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">51,347</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Error validation Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">automation.testing.ErrorValidation</td><td><a href="#m0">ErrorTesting</a></td><td rowspan="1">1679669682246</td><td rowspan="1">1127</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Submit Order Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">automation.testing.StandByTesting</td><td><a href="#m1">endToEndTest</a></td><td rowspan="1">1679669691528</td><td rowspan="1">3210</td></tr><tr><th colspan="4">Submit Order Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">automation.testing.StandByTesting</td><td><a href="#m2">endToEndTest</a></td><td rowspan="1">1679669681490</td><td rowspan="1">4045</td></tr><tr class="passedeven"><td><a href="#m3">orderHistoryTest</a></td><td rowspan="2">1679669701315</td><td rowspan="2">946</td></tr><tr class="passedeven"><td><a href="#m4">orderHistoryTest</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">automation.testing.test</td><td><a href="#m0">my</a></td><td rowspan="1">1680008636554</td><td rowspan="1">12</td></tr></tbody>
 </table>
-<h2>Error validation Test</h2><h3 id="m0">automation.testing.ErrorValidation#ErrorTesting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Submit Order Test</h2><h3 id="m1">automation.testing.StandByTesting#endToEndTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{country=united states, password=Agnivo@2001, pname=ADIDAS ORIGINAL, email=agni.test@yopmail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-tfn-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1284, 27). Other element would receive the click: &lt;div _ngcontent-tfn-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=111.0.5563.111)
-Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e27506ff07c90292f58fbc2b8166bb46, clickElement {id=36620851-8cf1-45dd-88d9-91601fc07f2b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\AGNIVO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56418/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e27506ff07c90292f58fbc2b8166bb46)] -&gt; xpath: //button[@routerlink=&apos;/dashboard/cart&apos;]]
-Session ID: e27506ff07c90292f58fbc2b8166bb46
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at abstractComponent.AbstractComponent.goToCart(AbstractComponent.java:54)
-	at automation.testing.StandByTesting.endToEndTest(StandByTesting.java:34)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1589)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">automation.testing.StandByTesting#endToEndTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{country=india, password=Agnivo@2001, pname=ZARA COAT 3, email=agnivo.test@yopmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">automation.testing.StandByTesting#orderHistoryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{country=india, password=Agnivo@2001, pname=ZARA COAT 3, email=agnivo.test@yopmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">automation.testing.StandByTesting#orderHistoryTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{country=united states, password=Agnivo@2001, pname=ADIDAS ORIGINAL, email=agni.test@yopmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">automation.testing.test#my</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

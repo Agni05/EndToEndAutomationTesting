@@ -11,6 +11,8 @@ public class test {
 	public void my() {
 		System.out.println("Hello");
 		Assert.assertTrue(true);
+		System.out.println("Java");
+		System.out.println("I am Agnivo");
 		
 		}
 	
