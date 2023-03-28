@@ -13,6 +13,8 @@ public class test {
 		Assert.assertTrue(true);
 		System.out.println("Java");
 		System.out.println("I am Agnivo");
+		System.out.println("AHHA");
+		System.out.println("Kolkata");
 		
 		}
 	
